@@ -2,16 +2,24 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ccefdd9e-d3c0-47e2-aa68-508dac1041f2" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/hackathon/headspin/automator/Browser.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/hackathon/headspin/automator/Properties.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/hackathon/headspin/automator/TestBase.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/hackathon/headspin/automator/ValidateMakeMyTripApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/config/defaults.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/hackathon/headspin/automator/functions/LandingPageFunctions.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/hackathon/headspin/automator/model/HotelModel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/hackathon/headspin/automator/page/LandingPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/hackathon/headspin/automator/report/ExtentManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/hackathon/headspin/automator/report/Reporter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/hackathon/headspin/automator/web/ISearchContext.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/hackathon/headspin/automator/web/Navigator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/report/style.xsl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/allure.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/extent.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/html-config.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/hackathon/headspin/automator/App.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/hackathon/headspin/automator/AppTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/hackathon/headspin/automator/Browser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hackathon/headspin/automator/Browser.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/hackathon/headspin/automator/Properties.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hackathon/headspin/automator/utils/Properties.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/hackathon/headspin/automator/TestBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hackathon/headspin/automator/TestBase.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/hackathon/headspin/automator/ValidateMakeMyTripApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/hackathon/headspin/automator/ValidateMakeMyTripApplication.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -28,6 +36,13 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
   <component name="ProjectId" id="1ccEk0gVx3u4wDuC5nmB6Gm11zE" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -40,7 +55,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/resources" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/resources/report" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
@@ -49,7 +64,13 @@
     <key name="CreateClassDialog.RecentsKey">
       <recent name="hackathon.headspin.automator" />
     </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="hackathon.headspin.automator.reporter" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/resources/report" />
+      <recent name="$PROJECT_DIR$/src/main/java/hackathon/headspin/automator/report" />
+      <recent name="$PROJECT_DIR$/src/main/java/hackathon/headspin/automator/reporter" />
       <recent name="$PROJECT_DIR$/src/main/resources" />
     </key>
   </component>
@@ -66,7 +87,7 @@
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="hackathon.headspin.automator.*" />
+          <option name="PATTERN" value="hackathon.headspin.automator.report.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -91,7 +112,7 @@
       <module name="automator-headspin-hackathon" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="hackathon.headspin.automator.*" />
+          <option name="PATTERN" value="hackathon.headspin.automator.report.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -141,36 +162,121 @@
       <option name="presentableId" value="Default" />
       <updated>1590819620390</updated>
     </task>
+    <task id="LOCAL-00001" summary="Add changes for browser creation and template testcase&#10;&#10;- Added Browser interaction with driver(create and end)&#10;- add Properties class - to get different properties and use it&#10;- add TestBase - to be used as base for all testcases">
+      <created>1590829419288</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1590829419289</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Add changes for browser creation and template testcase&#10;&#10;- Added Browser interaction with driver(create and end)&#10;- add Properties class - to get different properties and use it&#10;- add TestBase - to be used as base for all testcases" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add changes for browser creation and template testcase&#10;&#10;- Added Browser interaction with driver(create and end)&#10;- add Properties class - to get different properties and use it&#10;- add TestBase - to be used as base for all testcases" />
+  </component>
   <component name="WindowStateProjectService">
+    <state x="533" y="146" key="#com.intellij.ide.util.MemberChooser" timestamp="1590903268395">
+      <screen x="0" y="23" width="1440" height="797" />
+    </state>
+    <state x="533" y="146" key="#com.intellij.ide.util.MemberChooser/0.23.1440.797@0.23.1440.797" timestamp="1590903268395" />
     <state x="96" y="127" key="#com.intellij.ide.util.frameworkSupport.AddFrameworkSupportDialog" timestamp="1590820112906">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="96" y="127" key="#com.intellij.ide.util.frameworkSupport.AddFrameworkSupportDialog/0.0.1440.900@0.0.1440.900" timestamp="1590820112906" />
-    <state width="1398" height="237" key="GridCell.Tab.0.bottom" timestamp="1590828760082">
+    <state x="458" y="177" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1590892403351">
+      <screen x="0" y="23" width="1440" height="797" />
+    </state>
+    <state x="458" y="177" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.23.1440.797@0.23.1440.797" timestamp="1590892403351" />
+    <state x="839" y="174" key="#xdebugger.evaluate" timestamp="1590910145507">
+      <screen x="0" y="23" width="1440" height="797" />
+    </state>
+    <state x="839" y="174" key="#xdebugger.evaluate/0.23.1440.797@0.23.1440.797" timestamp="1590910145507" />
+    <state x="278" y="26" key="CommitChangelistDialog2" timestamp="1590829418717">
+      <screen x="0" y="23" width="1440" height="797" />
+    </state>
+    <state x="278" y="26" key="CommitChangelistDialog2/0.23.1440.797@0.23.1440.797" timestamp="1590829418717" />
+    <state width="1398" height="245" key="GridCell.Tab.0.bottom" timestamp="1590911922236">
       <screen x="0" y="23" width="1440" height="797" />
     </state>
     <state width="897" height="237" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1590823755818" />
-    <state width="1398" height="237" key="GridCell.Tab.0.bottom/0.23.1440.797@0.23.1440.797" timestamp="1590828760082" />
-    <state width="1398" height="237" key="GridCell.Tab.0.center" timestamp="1590828760080">
+    <state width="1398" height="245" key="GridCell.Tab.0.bottom/0.23.1440.797@0.23.1440.797" timestamp="1590911922236" />
+    <state width="1398" height="245" key="GridCell.Tab.0.center" timestamp="1590911922234">
       <screen x="0" y="23" width="1440" height="797" />
     </state>
     <state width="897" height="237" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1590823755815" />
-    <state width="1398" height="237" key="GridCell.Tab.0.center/0.23.1440.797@0.23.1440.797" timestamp="1590828760080" />
-    <state width="1398" height="237" key="GridCell.Tab.0.left" timestamp="1590828760079">
+    <state width="1398" height="245" key="GridCell.Tab.0.center/0.23.1440.797@0.23.1440.797" timestamp="1590911922234" />
+    <state width="1398" height="245" key="GridCell.Tab.0.left" timestamp="1590911922232">
       <screen x="0" y="23" width="1440" height="797" />
     </state>
     <state width="897" height="237" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1590823755813" />
-    <state width="1398" height="237" key="GridCell.Tab.0.left/0.23.1440.797@0.23.1440.797" timestamp="1590828760079" />
-    <state width="1398" height="237" key="GridCell.Tab.0.right" timestamp="1590828760081">
+    <state width="1398" height="245" key="GridCell.Tab.0.left/0.23.1440.797@0.23.1440.797" timestamp="1590911922232" />
+    <state width="1398" height="245" key="GridCell.Tab.0.right" timestamp="1590911922235">
       <screen x="0" y="23" width="1440" height="797" />
     </state>
     <state width="897" height="237" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1590823755816" />
-    <state width="1398" height="237" key="GridCell.Tab.0.right/0.23.1440.797@0.23.1440.797" timestamp="1590828760081" />
+    <state width="1398" height="245" key="GridCell.Tab.0.right/0.23.1440.797@0.23.1440.797" timestamp="1590911922235" />
+    <state width="1398" height="253" key="GridCell.Tab.1.bottom" timestamp="1590911795664">
+      <screen x="0" y="23" width="1440" height="797" />
+    </state>
+    <state width="1398" height="253" key="GridCell.Tab.1.bottom/0.23.1440.797@0.23.1440.797" timestamp="1590911795664" />
+    <state width="1398" height="253" key="GridCell.Tab.1.center" timestamp="1590911795663">
+      <screen x="0" y="23" width="1440" height="797" />
+    </state>
+    <state width="1398" height="253" key="GridCell.Tab.1.center/0.23.1440.797@0.23.1440.797" timestamp="1590911795663" />
+    <state width="1398" height="253" key="GridCell.Tab.1.left" timestamp="1590911795662">
+      <screen x="0" y="23" width="1440" height="797" />
+    </state>
+    <state width="1398" height="253" key="GridCell.Tab.1.left/0.23.1440.797@0.23.1440.797" timestamp="1590911795662" />
+    <state width="1398" height="253" key="GridCell.Tab.1.right" timestamp="1590911795664">
+      <screen x="0" y="23" width="1440" height="797" />
+    </state>
+    <state width="1398" height="253" key="GridCell.Tab.1.right/0.23.1440.797@0.23.1440.797" timestamp="1590911795664" />
+    <state x="395" y="139" key="RollbackChangesDialog" timestamp="1590911867541">
+      <screen x="0" y="23" width="1440" height="797" />
+    </state>
+    <state x="395" y="139" key="RollbackChangesDialog/0.23.1440.797@0.23.1440.797" timestamp="1590911867541" />
     <state x="0" y="33" key="SettingsEditor" timestamp="1590820149123">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="0" y="33" key="SettingsEditor/0.0.1440.900@0.0.1440.900" timestamp="1590820149123" />
+    <state x="320" y="163" key="Vcs.Push.Dialog.v2" timestamp="1590829424470">
+      <screen x="0" y="23" width="1440" height="797" />
+    </state>
+    <state x="320" y="163" key="Vcs.Push.Dialog.v2/0.23.1440.797@0.23.1440.797" timestamp="1590829424470" />
+    <state width="720" height="398" key="XDebugger.FullValuePopup" timestamp="1590910116389">
+      <screen x="0" y="23" width="1440" height="797" />
+    </state>
+    <state width="720" height="398" key="XDebugger.FullValuePopup/0.23.1440.797@0.23.1440.797" timestamp="1590910116389" />
+    <state x="397" y="185" width="645" height="472" key="find.popup" timestamp="1590833905525">
+      <screen x="0" y="23" width="1440" height="797" />
+    </state>
+    <state x="397" y="185" width="645" height="472" key="find.popup/0.23.1440.797@0.23.1440.797" timestamp="1590833905525" />
+    <state x="385" y="144" width="670" height="676" key="search.everywhere.popup" timestamp="1590901970477">
+      <screen x="0" y="23" width="1440" height="797" />
+    </state>
+    <state x="385" y="144" width="670" height="676" key="search.everywhere.popup/0.23.1440.797@0.23.1440.797" timestamp="1590901970477" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/hackathon/headspin/automator/web/Navigator.java</url>
+          <line>128</line>
+          <option name="timeStamp" value="10" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/hackathon/headspin/automator/functions/LandingPageFunctions.java</url>
+          <line>18</line>
+          <option name="timeStamp" value="12" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/hackathon/headspin/automator/functions/LandingPageFunctions.java</url>
+          <line>14</line>
+          <option name="timeStamp" value="13" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

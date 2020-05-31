@@ -1,4 +1,4 @@
-package hackathon.headspin.automator;
+package hackathon.headspin.automator.utils;
 
 import org.testng.Reporter;
 

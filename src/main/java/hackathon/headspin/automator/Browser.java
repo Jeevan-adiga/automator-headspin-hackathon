@@ -1,5 +1,6 @@
 package hackathon.headspin.automator;
 
+import hackathon.headspin.automator.utils.Properties;
 import org.openqa.selenium.Capabilities;
 import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebDriver;
@@ -10,7 +11,6 @@ import org.openqa.selenium.remote.CapabilityType;
 import org.openqa.selenium.remote.RemoteWebDriver;
 
 import java.io.File;
-import java.io.IOException;
 import java.util.concurrent.TimeUnit;
 
 /**
@@ -122,5 +122,9 @@ public class Browser {
      */
     public static Capabilities getCapabilities() {
         return ((RemoteWebDriver) getDriver()).getCapabilities();
+    }
+
+    public static WebDriver getRemoteDriver() {
+        return (RemoteWebDriver) getDriver();
     }
 }
